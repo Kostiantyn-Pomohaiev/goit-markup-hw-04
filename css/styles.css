@@ -180,6 +180,7 @@ a {
     padding-left: 472px;
     padding-right: 472px;
     padding: 188px 0;
+    max-width: 1440px;
 }
 
 .hero-container {
@@ -218,6 +219,7 @@ a {
     border-radius: 4px;
     margin-right: auto;
     margin-left: auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn:hover {
@@ -304,6 +306,9 @@ a {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+                0px 1px 1px rgba(46, 47, 66, 0.16),
+                0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .text-container {   
@@ -328,6 +333,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-icon-link {
@@ -338,6 +344,20 @@ a {
     height: 40px;
     border-radius: 50%;
     background-color: #4D5AE5;  
+}
+
+.team-icon-link:hover{
+    background-color: #404bbf;
+}
+
+.team-icon-link:focus {
+    background-color: #404bbf;
+}
+
+
+
+.team-item-iconinsid{
+    fill: #f4f4fd;
 }
 
 .team-item-icon {
@@ -422,9 +442,6 @@ a {
     align-items: baseline;
 }
 
-.footer-text {
-    margin-right: 120px;
-}
 
 .logox {
     font-family: "Raleway", sans-serif;
@@ -459,6 +476,10 @@ a {
     width: 264px;
 }
 
+.team-icon-ul {
+    gap: 16px;
+}
+
 .footer-container- {
     display: flex;
     flex-direction: column;
@@ -472,4 +493,18 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
+    margin-right: 120px;
+    margin-bottom: 16px;
+}
+
+.team-item-iconinsi {
+    fill: #f4f4fd;
+}
+
+.team-icon-lin:hover {
+    background-color: #31d0aa;
+}
+
+.team-icon-lin:focus {
+    background-color: #31d0aa;
 }
