@@ -418,13 +418,12 @@ a {
 }
 
 .footer-container {
-    margin-left: 156px;
     display: flex;
-    flex-direction: column;
-    gap: 72px;
-    justify-content: flex-start;
     align-items: baseline;
-    padding: 0 15px;
+}
+
+.footer-text {
+    margin-right: 120px;
 }
 
 .logox {
@@ -463,7 +462,6 @@ a {
 .footer-container- {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: flex-start;
 }
 
