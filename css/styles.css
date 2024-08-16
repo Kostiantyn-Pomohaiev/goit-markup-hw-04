@@ -497,7 +497,7 @@ a {
 .team-icon-ul {
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 16px;
 }
 
 .footer-text {
@@ -513,4 +513,24 @@ a {
 .team-item-iconinsi {
     fill: #f4f4fd;
 }
+
+.team-icon-lin {
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-icon-lin:hover {
+    background-color: #31d0aa;
+}
+
+.team-icon-lin:focus {
+    background-color: #31d0aa;
+}
+
+
+
 
