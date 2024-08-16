@@ -443,6 +443,10 @@ a {
 .footer-container {
     display: flex;
     align-items: baseline;
+
+}
+
+.footer-in {
     margin-right: 120px;
 }
 
@@ -503,7 +507,6 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
-    margin-right: 120px;
     margin-bottom: 16px;
 }
 
