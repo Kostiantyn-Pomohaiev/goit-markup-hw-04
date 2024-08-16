@@ -489,6 +489,12 @@ a {
     align-items: flex-start;
 }
 
+.team-icon-ul {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
 .footer-text {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
