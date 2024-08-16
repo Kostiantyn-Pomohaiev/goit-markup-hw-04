@@ -349,9 +349,15 @@ a {
     background-color: #4D5AE5;  
 }
 
-.team-icon-link:hover:focus{
+.team-icon-link:hover{
     background-color: #404bbf;
 }
+
+.team-icon-link:focus {
+    background-color: #404bbf;
+}
+
+
 
 .team-item-iconinsid{
     fill: #f4f4fd;
